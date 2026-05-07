@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <button id="open-modal-1" class="btn">Open modal 1</button>
+      <button id="open-modal-2" class="btn">Open modal 2</button>
+      <button id="open-modal-3" class="btn">Open modal 3</button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, id
+        nesciunt repellat eos natus ipsam molestias fugiat quod vero fuga illo
+        enim nihil? Corporis eligendi distinctio provident numquam. Nihil, quo.
+        Ab ea, accusantium eos cupiditate quibusdam ad ducimus nesciunt dolores
+        obcaecati voluptatibus pariatur non voluptas, veniam deserunt est magni?
+        Quod perferendis nostrum eveniet animi commodi odio assumenda velit
+        laborum voluptates. Quos quo delectus culpa unde tempore doloribus
+        mollitia repellat maiores sapiente facilis provident, vel laudantium
+        dolore eligendi odio natus voluptatum reprehenderit, aut, deserunt ipsa
+        temporibus libero dolorum magnam vitae! Quibusdam! Soluta molestias,
+        dicta corporis quia impedit facere optio quod. Modi eos provident vero
+        asperiores possimus. Cumque, perferendis ad. Delectus totam fugiat
+        asperiores architecto natus omnis repellat? Iure officia culpa earum!
+        Tempore labore alias ratione cumque. Similique nobis impedit quisquam
+        iste expedita sequi quod cumque voluptatibus laborum corrupti in,
+        consequuntur quos adipisci, odio repellendus! Sequi et voluptatem maxime
+        sapiente eum repellat! Distinctio repellat molestias natus
+        exercitationem blanditiis dignissimos excepturi maxime, voluptate
+        placeat voluptatum rem magni cumque aliquam possimus. Nobis autem
+        perspiciatis fuga unde sed, commodi dicta voluptates. Assumenda ullam
+        deserunt laudantium. Facilis perspiciatis corrupti perferendis optio
+        quisquam dolorum sunt nam ex, laudantium minus deserunt voluptates
+        dolor. Eum at aut deserunt consequuntur, eaque expedita quibusdam
+        tempore distinctio, inventore, maxime nemo incidunt animi! Explicabo ad
+        fugiat veritatis? Officia asperiores eligendi tempore dolorum aliquid
+        exercitationem velit minus iusto sint unde rem molestiae temporibus,
+        cumque a facilis porro sequi illo voluptates? Tempore ea animi et.
+        Mollitia, laborum nesciunt? Ad adipisci assumenda, facilis suscipit
+        harum nam, incidunt ab velit consectetur reiciendis natus maiores unde
+        vitae eos mollitia accusamus optio illo soluta quae odio non
+        consequuntur. Veniam. Neque possimus expedita dolorum totam harum
+        voluptatibus cupiditate voluptates vel soluta consectetur animi at,
+        velit odio incidunt obcaecati quisquam dolores illo laudantium fugit
+        quod voluptatum consequuntur id voluptate? Quidem, temporibus.
+      </p>
+    </main>
+
+    <template id="modal-1">
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      <buttonn class="btn" onclick="modal2.open()">Open Modal 2</buttonn>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste magnam
+        excepturi libero dolorum dolorem quibusdam voluptatem eos mollitia hic!
+        Voluptatibus eveniet beatae tenetur vitae amet nihil totam expedita.
+        Quia, libero.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi fugit
+        modi amet ratione dolorum assumenda necessitatibus eos perferendis
+        delectus voluptas! Illum itaque, quis voluptatibus at accusantium in
+        unde dolor quia.
+      </p>
+      <img
+        src="https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        width="100%"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste magnam
+        excepturi libero dolorum dolorem quibusdam voluptatem eos mollitia hic!
+        Voluptatibus eveniet beatae tenetur vitae amet nihil totam expedita.
+        Quia, libero.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi fugit
+        modi amet ratione dolorum assumenda necessitatibus eos perferendis
+        delectus voluptas! Illum itaque, quis voluptatibus at accusantium in
+        unde dolor quia.
+      </p>
+    </template>
+
+    <!-- Modal 2 -->
+    <template id="modal-2">
+      <h1>Login</h1>
+      <button class="btn" onclick="modal3.open()">Open Modal 3</button>
+      <form action="" id="login-form">
+        <input type="email" placeholder="Enter your email..." id="email" />
+        <br />
+        <input
+          type="password"
+          placeholder="Enter your password..."
+          id="password"
+        />
+        <br />
+        <button type="submit">Login</button>
+      </form>
+    </template>
+
+    <!-- Modal 3 -->
+    <template id="modal-3">
+      <h2>Lorem ipsum dolor sit amet consectetur!</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        dolor nulla, rem sed incidunt quod aliquid in quas natus qui facilis
+        dolore voluptatum quasi illo necessitatibus reprehenderit dolorem cumque
+        nemo.
+      </p>
+    </template>
+    <script src="./main.js"></script>
+  </body>
+</html>
