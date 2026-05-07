@@ -59,7 +59,7 @@ article img {
   max-width: 100%;
 }
 
-.modal-backdrop {
+.dimu__backdrop {
   position: fixed;
   inset: 0;
   display: flex;
@@ -72,16 +72,16 @@ article img {
   transition-duration: 0.3s;
 }
 
-.modal-backdrop.show {
+.dimu--show {
   opacity: 1;
   visibility: visible;
 }
 
-.modal-backdrop.show .modal-container {
+.dimu--show .dimu__container {
   transform: scale(1);
 }
 
-.modal-container {
+.dimu__container {
   position: relative;
   width: min(600px, 90%);
   padding: 20px 20px 0;
@@ -91,7 +91,7 @@ article img {
   transition: transform 0.3s;
 }
 
-.modal-close {
+.dimu__close {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -103,40 +103,40 @@ article img {
   font-size: 2rem;
 }
 
-.modal-close:hover {
+.dimu__close:hover {
   color: #333;
 }
 
-.modal-content {
+.dimu__content {
   max-height: 80vh;
   overflow-y: auto;
 }
 
-.modal-footer {
+.dimu__footer {
   display: flex;
   justify-content: flex-end;
   gap: 8px;
   padding: 20px 0;
 }
 
-.modal-btn {
+.dimu__btn {
   padding: 8px 20px;
   color: #fff;
   background: #34495e;
 }
 
-.modal-btn.primary {
+.dimu__btn--primary {
   background: #3498db;
 }
 
-.modal-btn.danger {
+.dimu__btn--danger {
   background: #e74c3c;
 }
 
-.modal-btn.pull-left {
+.dimu__btn--pull-left {
   margin-right: auto;
 }
 
-.no-scroll {
+.dimu--no-scroll {
   overflow: hidden;
 }
